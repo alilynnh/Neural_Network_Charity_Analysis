@@ -2,10 +2,10 @@
 ## Project Overview
 The current project was conducted for the non-profit organization Alphabet Soup. This organization raises and then donates money to organizations that work to protect the environment, improve peoples' well-being, and unify the world. The purpose of this project was to develop a neural network model that would accurately predict which organizations would be successful if funded by Alphabet Soup. 
 
-**Data:** [Alphabet Soup Data](Resources/charity_data.csv)
-**Tools:** Scikit-Learn, TensorFlow
-**Code:** [Original Model](AlphabetSoupCharity.ipynb), [Optimization Attempts and Random Forest](AlphabetSoupCharity_Optimization.ipynb)  
-
+**Data:** [Alphabet Soup Data](Resources/charity_data.csv)   
+**Tools:** Scikit-Learn, TensorFlow   
+**Code:** [Original Model](AlphabetSoupCharity.ipynb), [Optimization Attempts and Random Forest](AlphabetSoupCharity_Optimization.ipynb)    
+ 
 ## Results
 ### Data Preprocessing
 Numeric features were scaled using the standard scalar, and categorical features were converted to numeric values using one-hot encoding. In additon, Application_Type and Classification were binned. 
