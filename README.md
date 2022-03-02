@@ -4,6 +4,7 @@ The current project was conducted for the non-profit organization Alphabet Soup.
 
 **Data:** [Alphabet Soup Data](Resources/charity_data.csv)
 **Tools:** Scikit-Learn, TensorFlow
+**Code:** [Original Model](AlphabetSoupCharity.ipynb), [Optimization Attempts and Random Forest](AlphabetSoupCharity_Optimization.ipynb)  
 
 ## Results
 ### Data Preprocessing
@@ -44,7 +45,7 @@ The number of layers and neurons were kept the same as the original, however, th
     - Layer 2: 82 neurons, ReLU activation
 - Output Layer: Sigmoid activation
 
-This model had an increased number of neurons. The number of neurons for the first later was 3-times the number of features, and the number of neurons for the second layer was 2-times the number of features.  
+This model had an increased number of neurons. The number of neurons for the first later was three times the number of features, and the number of neurons for the second layer was two times the number of features.  
 
 ##### Results  
 <img src="Resources/attempt2.png" width="75%" height="75%">
@@ -56,7 +57,10 @@ This model had an increased number of neurons. The number of neurons for the fir
     - Layer 3: 41 neurons, ReLU activation
 - Output Layer: Sigmoid activation
 
-This model had an additional layer. The number of neurons for the first later was 3-times the number of features, the number of neurons for the second layer was 2-times the number of features, and the number of neurons for the third layer was equal to the number of features.   
+This model had an additional layer. The number of neurons for the first later was three times the number of features, the number of neurons for the second layer was two times the number of features, and the number of neurons for the third layer was equal to the number of features.   
 
 ##### Results   
 <img src="Resources/attempt3.png" width="75%" height="75%">
+
+## Summary
+Despite 3 attempts at optimization, the model accuracy never reached the 75% target accuracy. Another option to a neural network model is a random forest classifier model. For example, when this data was analyzed using a random forest classifier model, the resulting accuracy was 71%. This is comparable to the 72.7% accuracy of the neural network model, and the forest model ran in a fraction of the time that was required for the neural network model to run. In addition, the forest model required less code. Because of the faster performance and simplicity, I would recommend that Alphabet Soup use a random forest classifier model in the future. 
