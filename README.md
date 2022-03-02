@@ -25,7 +25,7 @@ For all of the models: ReLU activation was used for the hidden layers as it is t
 80 Neurons were chosen for the first layer because that is approximately twice the number of features, then roughly half of that number of neurons were used for the second layer. NOTE: This original model still included the Special_Considerations feature. 
 
 ##### Results   
-<img src="Resources/original.png" width="50%" height="50%">
+<img src="Resources/original.png" width="75%" height="75%">
 
 #### Optimization Attempt 1:
 - Hidden Layers: 
@@ -36,7 +36,7 @@ For all of the models: ReLU activation was used for the hidden layers as it is t
 The number of layers and neurons were kept the same as the original, however, this model had the Special_Considerations feature removed because only 27 cases had special considerations. 
 
 ##### Results  
-<img src="Resources/attempt1.png" width="50%" height="50%">
+<img src="Resources/attempt1.png" width="75%" height="75%">
 
 #### Optimization Attempt 2:
 - Hidden Layers: 
@@ -47,7 +47,7 @@ The number of layers and neurons were kept the same as the original, however, th
 This model had an increased number of neurons. The number of neurons for the first later was 3-times the number of features, and the number of neurons for the second layer was 2-times the number of features.  
 
 ##### Results  
-<img src="Resources/attempt2.png" width="50%" height="50%">
+<img src="Resources/attempt2.png" width="75%" height="75%">
 
 #### Optimization Attempt 3:
 - Hidden Layers: 
@@ -59,4 +59,4 @@ This model had an increased number of neurons. The number of neurons for the fir
 This model had an additional layer. The number of neurons for the first later was 3-times the number of features, the number of neurons for the second layer was 2-times the number of features, and the number of neurons for the third layer was equal to the number of features.   
 
 ##### Results   
-<img src="Resources/attempt3.png" width="50%" height="50%">
+<img src="Resources/attempt3.png" width="75%" height="75%">
