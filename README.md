@@ -33,7 +33,7 @@ For all of the models: ReLU activation was used for the hidden layers as it is t
     - Layer 2: 30 neurons, ReLU activation
 - Output Layer: Sigmoid activation
 
-The number of layers and neurons were kept the same as the original, however, this model had the Special_Considerations feature removed because only 27 cases had special considerations. 
+The number of layers and neurons were kept the same as the original, however, this model had the Special_Considerations feature removed in an attempt to increase the model's performance because only 27 cases had special considerations. The model had an accuracy score of 72.5% which was an increase from the original, but did not reach the target accuracy of 75%.  
  
 <img src="Resources/attempt1.png" width="75%" height="75%">
 
@@ -43,7 +43,7 @@ The number of layers and neurons were kept the same as the original, however, th
     - Layer 2: 82 neurons, ReLU activation
 - Output Layer: Sigmoid activation
 
-This model had an increased number of neurons. The number of neurons for the first later was three times the number of features, and the number of neurons for the second layer was two times the number of features.  
+To improve the performance of the model, number of neurons was increased. The number of neurons for the first later was three times the number of features, and the number of neurons for the second layer was two times the number of features. The model had an accuracy score of 72.6% which was an increase over the previous attempt, but did not reach the target accuracy of 75%.     
  
 <img src="Resources/attempt2.png" width="75%" height="75%">
 
@@ -54,7 +54,7 @@ This model had an increased number of neurons. The number of neurons for the fir
     - Layer 3: 41 neurons, ReLU activation
 - Output Layer: Sigmoid activation
 
-This model had an additional layer. The number of neurons for the first later was three times the number of features, the number of neurons for the second layer was two times the number of features, and the number of neurons for the third layer was equal to the number of features.   
+In a final attempt to improve the performance of the model, an additional layer was added. The number of neurons for the first later was three times the number of features, the number of neurons for the second layer was two times the number of features, and the number of neurons for the third layer was equal to the number of features. The model had an accuracy score of 72.7% which was an increase over the previous two attempts, but did not reach the target accuracy of 75%.   
    
 <img src="Resources/attempt3.png" width="75%" height="75%">
 
